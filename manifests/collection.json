@@ -1,0 +1,13 @@
+{
+  "id" : "https://wjbfarrell.github.io/IIIF-Workshop-20230418/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in wjbfarrell/IIIF-Workshop-20230418 project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://wjbfarrell.github.io/IIIF-Workshop-20230418/manifests/manifest2.json",
+    "label" : "University of Leicester Images"
+  } ]
+}
