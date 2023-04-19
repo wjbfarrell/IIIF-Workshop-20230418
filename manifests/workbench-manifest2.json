@@ -1,0 +1,100 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://wjbfarrell.github.io/IIIF-Workshop-20230418/manifests/workbench-manifest2.json",
+  "@type" : "sc:Manifest",
+  "label" : "University of Leicester Images",
+  "service" : {
+    "profile" : "http://iiif.io/api/search/0/search",
+    "@id" : "https://dev.gdmrdigital.com/search-api/1245635613/22026569/2f0638b1a2e97ed20364d3abaed80d4e/search",
+    "@context" : "http://iiif.io/api/search/0/context.json"
+  },
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "[Two images from the University of Leicester Library's collections.]",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/publicdomain/zero/1.0/",
+  "attribution" : [ {
+    "@value" : "[These works are in the public domain. Digitised from University of Leicester Library's collections.]",
+    "@language" : "en"
+  } ],
+  "sequences" : [ {
+    "@id" : "http://987a5d90-2750-483d-90ab-e42184560312",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "viewingHint" : "paged",
+    "canvases" : [ {
+      "@id" : "http://b1f36793-d403-4023-81bc-d227656c96fe",
+      "@type" : "sc:Canvas",
+      "label" : "Projectors for Wine 1641",
+      "height" : 514,
+      "width" : 740,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://45c3a32d-9aab-4e7b-a440-98627099ea75",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://archivelab.gdmrdigital.com/iiif/wine-pattent/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://archivelab.gdmrdigital.com/iiif/wine-pattent",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 514,
+          "width" : 740
+        },
+        "on" : "http://b1f36793-d403-4023-81bc-d227656c96fe"
+      } ],
+      "otherContent" : [ {
+        "@id" : "https://wjbfarrell.github.io/IIIF-Workshop-20230418/annotations/manifest2-annotations.json",
+        "@type" : "sc:AnnotationList",
+        "label" : "My fantastic annotations"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://9af904c2-f278-4f46-a260-852f227170f1",
+      "@type" : "sc:Canvas",
+      "label" : "Church in Devon",
+      "height" : 3064,
+      "width" : 4267,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://7bd41ad3-1582-4e63-a73d-5e35587c1d78",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://archivelab.gdmrdigital.com/iiif/devon-002-cropped/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://archivelab.gdmrdigital.com/iiif/devon-002-cropped",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 3064,
+          "width" : 4267
+        },
+        "on" : "http://9af904c2-f278-4f46-a260-852f227170f1"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ {
+    "@id" : "http://example.org/iiif/book1/range/top",
+    "@type" : "sc:Range",
+    "label" : "Table of Content",
+    "viewingHint" : "top",
+    "ranges" : [ "http://example.org/iiif/book1/range/intro" ]
+  }, {
+    "@id" : "http://example.org/iiif/book1/range/intro",
+    "@type" : "sc:Range",
+    "label" : "Introduction",
+    "canvases" : [ "http://45c3a32d-9aab-4e7b-a440-98627099ea75" ]
+  } ]
+}
