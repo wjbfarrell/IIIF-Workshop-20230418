@@ -1,0 +1,7 @@
+{
+  "@type" : "sc:Layer",
+  "otherContent" : [ "https://wjbfarrell.github.io/IIIF-Workshop-20230418/annotations/8940ddaf21a61d6f15df2d843ca77e90.json" ],
+  "@id" : "https://wjbfarrell.github.io/IIIF-Workshop-20230418/annotations/collection.json",
+  "label" : "All annotations loaded in wjbfarrell/IIIF-Workshop-20230418 project",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
