@@ -9,5 +9,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://wjbfarrell.github.io/IIIF-Workshop-20230418/manifests/manifest2.json",
     "label" : "University of Leicester Images"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://wjbfarrell.github.io/IIIF-Workshop-20230418/manifests/workbench-manifest2.json",
+    "label" : "University of Leicester Images"
   } ]
 }
